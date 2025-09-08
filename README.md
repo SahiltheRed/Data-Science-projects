@@ -13,14 +13,14 @@ Syldavia.
 
 users.txt contains information about the users in DevHealthOrg (community health workers), and the
 beneficiaries who are assigned to them. Format for each line:
-<UserID>: <BeneficiaryID>,<BeneficiaryID>,<BeneficiaryID>
+UserID: BeneficiaryID, BeneficiaryID, BeneficiaryID...
 
 areas.csv contains information regarding where the beneficiaries were registered. Format for each row:
-<BeneficiaryID>,<DistrictID>.
+BeneficiaryID,DistrictID.
 
 visits.csv contains a row every time a user met a beneficiary and delivered healthcare services. Format
-for each row: Date,Type,<BeneficiaryID>. Type denotes whether or not the meeting happened in
-the beneficiary’s house (Home) or at a healthcare clinic (Clinic), and <BeneficiaryID> denotes which
+for each row: Date,Type, BeneficiaryID. Type denotes whether or not the meeting happened in
+the beneficiary’s house (Home) or at a healthcare clinic (Clinic), and BeneficiaryID denotes which
 beneficiary was receiving healthcare. Date denotes when the beneficiary was visited
 
 DevHealthOrg wants to diagnose any systematic problems in healthcare delivery services, and needs your help
